@@ -6,7 +6,8 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+Download [CV](http://xuezhenggdut.github.io/files/paper1.pdf)
+======
 {% include base_path %}
 
 Education
