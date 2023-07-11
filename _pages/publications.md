@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -8,12 +8,6 @@ author_profile: true
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
 Publications
 ======
@@ -27,3 +21,10 @@ Journal
 Conference
 * Y. Liu, **Z. Xue**, G. Han, C. Liu and C. Liao, "Fuzzy Logic Based Agent Selection for Failure Management in VANETs," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 166-170, doi: 10.1109/ISCIT55906.2022.9931207.[Paper](https://ieeexplore.ieee.org/document/9931207)
 * C. Liao, C. Liu, **Z. Xue**, Y. Liu and G. Han, "Cooperative Edge Caching for Vehicular Networks in Road Intersections," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 105-110, doi: 10.1109/ISCIT55906.2022.9931202.[Paper](https://ieeexplore.ieee.org/document/9931202)
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
