@@ -21,7 +21,7 @@ Education
 Skills
 ======
 * Methods
-  * Deep Reinforce learning
+  * Deep Reinforcement learning
 * Programing
   * Python
   * Matlab
