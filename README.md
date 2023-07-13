@@ -25,5 +25,5 @@ Projects
 * Low-Latency Multi-Channel High-Definition Video Transmission System
 * V2X Cooperative Perception System
 
-![Xuezhenggdut's GitHub stats](https://github-readme-stats/api?username=Xuezhenggdut&show_icons=true&theme=tokyonight)
+![Xuezhenggdut's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa/api?username=Xuezhenggdut&show_icons=true&theme=tokyonight)
 
