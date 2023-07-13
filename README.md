@@ -2,9 +2,11 @@
 # Zheng Xue
 
 Hi! You are the![Visitor Count](https://profile-counter.glitch.me/Xuezhenggdut/count.svg)-th visitor
+======
 This is Zheng Xue's personal [homepage](https://xuezhenggdut.github.io//).
 
-I am currently pursing the Ph.D degree in information and communication engineering at Guangdong University of Technology, Guangzhou, China. My research interests include vehicular networks, edge computing and cooperative perception.
+I am currently pursing the Ph.D degree in information and communication engineering at Guangdong University of Technology, Guangzhou, China. 
+My research interests include vehicular networks, edge computing and cooperative perception.
 
 Publications
 ======
