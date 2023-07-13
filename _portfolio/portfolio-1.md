@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Low-Latency Multi-Channel High-Definition Video Transmission System"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/FPGA.png'>"
 collection: portfolio
 ---
 

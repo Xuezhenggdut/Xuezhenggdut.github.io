@@ -1,7 +1,7 @@
 
 # Zheng Xue
 
-Hi! You are the![Visitor Count](https://profile-counter.glitch.me/Xuezhenggdut/count.svg)-th visitor
+Hi! You are the ![Visitor Count](https://profile-counter.glitch.me/Xuezhenggdut/count.svg)-th visitor
 ======
 This is Zheng Xue's personal [homepage](https://xuezhenggdut.github.io//).
 
