@@ -19,6 +19,7 @@ Coding
 
 Research
 ======
+
 Search
 ------
 * Google Scholar: Largest Search Engine for Academic Publishing [[Link]](https://scholar.google.com/)
@@ -49,9 +50,11 @@ AIGC
 Wechat
 ------
 * 鲜枣课堂
+* 网络与通信
 
 Others
 ======
+
 Public resource navigation
 ------
 * [xue8nav [学吧导航]](https://www.xue8nav.com/)
