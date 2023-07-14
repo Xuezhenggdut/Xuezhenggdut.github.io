@@ -7,10 +7,15 @@ author_profile: true
 
 Courses
 ======
-* Search: [MOOC](https://www.icourse163.org/) &#124; [Bilibili](https://www.bilibili.com/) &#124; [YouTube](https://www.youtube.com/)
+* Search: [MOOC](https://www.icourse163.org/) &#124; [Bilibili](https://www.bilibili.com/) &#124; [YouTube](https://www.youtube.com/) &#124; [xuetangx](https://www.xuetangx.com/)
 
 * Deep Reinforcement Learning by Dr. Shusen Wang [[Link]](https://github.com/wangshusen/DRL)
 * RoS2 by guyuehome [[Link]](https://book.guyuehome.com/)
+
+Coding
+======
+* Python Documentation [[English]](https://docs.python.org/3/) [[Chinese]](https://docs.python.org/zh-cn/3/)
+* Tensorflow & Machine learning by [[morvanzhou]](https://yulizi123.github.io/)
 
 Research
 ======
@@ -45,12 +50,11 @@ Wechat
 ------
 * 鲜枣课堂
 
-Other
+Others
 ======
 Public resource navigation
------
+------
 * [xue8nav [学吧导航]](https://www.xue8nav.com/)
-* [xuetangx [学堂在线]](https://www.xuetangx.com/)
 * [dajiadaohang [打假导航(国家部门集合)]](http://www.dajiadaohang.com/Index/index.html)
 
 e-book
