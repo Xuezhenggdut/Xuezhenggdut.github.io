@@ -20,7 +20,8 @@ Education
 
 Publications
 ======
-SCI:[Journal Partition List by National Science Library, Chinese Academy of Sciences](https://www.fenqubiao.com/)
+SCI: [Journal Partition List by National Science Library, Chinese Academy of Sciences](https://www.fenqubiao.com/)
+CCF: [Recommended Publications by China Computer Federation](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
 
 Journal
 * **Z. Xue**, C. Liu, C. Liao, G. Han and Z. Sheng, "Joint Service Caching and Computation Offloading Scheme Based on Deep Reinforcement Learning in Vehicular Edge Computing Systems," in IEEE Transactions on Vehicular Technology, vol. 72, no. 5, pp. 6709-6722, May 2023, doi: 10.1109/TVT.2023.3234336.[Paper](https://ieeexplore.ieee.org/document/10007043)
