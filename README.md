@@ -27,4 +27,4 @@ Projects
 
 <!-- ![Xuezhenggdut's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa/api?username=Xuezhenggdut&show_icons=true&theme=tokyonight) -->
 
-[![Xuezhenggdut's GitHub stats](https://github-readme-stats.vercel.app/api?username=Xuezhenggdut)](https://github.com/anuraghazra/github-readme-stats)
+[![Xuezhenggdut's GitHub stats](https://github-readme-stats.vercel.app/api?username=Xuezhenggdut&show_icons=true&theme=radical))](https://github.com/anuraghazra/github-readme-stats)
