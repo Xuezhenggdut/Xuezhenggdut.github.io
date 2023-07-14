@@ -19,13 +19,15 @@ Coding
 
 Research
 ======
-
-Search
-------
-* Google Scholar: Largest Search Engine for Academic Publishing [[Link]](https://scholar.google.com/)
-* dblp: Computer Science Bibliography [[Link]](https://dblp.org/)
+## Search
+* Google Scholar: Largest search engine for academic publishing [[Link]](https://scholar.google.com/)
+* IEEEXplore: The professional home for the engineering and technology community worldwide [[Link]](https://ieeexplore.ieee.org/Xplore/home.jsp)
+* ACM DL: A community engaged with a repository of resources to support computing research and practice [[Link]](https://dl.acm.org/)
+* Web of Science: Web of Science is an important database for global access to academic information. [[Link]](https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F&roaming=true)
+* Engineering Village: First choice for serious engineering research [[Link]](https://www.engineeringvillage.com/home.url)
+* dblp: Computer science bibliography [[Link]](https://dblp.org/)
 * LetPub: Information about SCI Journals [[Link]](http://www.letpub.com.cn/index.php?page=journalapp)
-* sci-hub: Freely Accessible for Anyone to Read and Download [[Link]](https://sci-hub.se/)
+* sci-hub: Freely accessible for anyone to read and download [[Link]](https://sci-hub.se/)
 * arXiv: arXiv is a free distribution service and an open-access archive in the fields of computer science... [[Link]](https://arxiv.org/)
 * Conference Partner: Information about Academic Conferences [[Link]](https://www.myhuiban.com/)
 * WikiCFP: A Wiki for Calls for Papers [[Link]](http://www.wikicfp.com/cfp/)
@@ -54,9 +56,7 @@ Wechat
 
 Others
 ======
-
-Public resource navigation
-------
+## Public resource navigation
 * [xue8nav [学吧导航]](https://www.xue8nav.com/)
 * [dajiadaohang [打假导航(国家部门集合)]](http://www.dajiadaohang.com/Index/index.html)
 
