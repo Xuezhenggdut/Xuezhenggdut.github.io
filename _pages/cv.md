@@ -48,6 +48,7 @@ Conference
 Awards
 ======
 * 2020,2022, First-class Academic Scholarship of Guangdong University of Technology
+* Best Poster Presentation Award [[Poster]](http://xuezhenggdut.github.io/files/poster.pdf)
 * 2018, Outstanding Graduate of Chongqing Jiaotong University
 * 2015, National Encouragement Scholarship
 
