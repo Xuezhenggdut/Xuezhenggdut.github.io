@@ -19,7 +19,9 @@ Coding
 
 Research
 ======
-## Search
+
+Search
+------
 * Google Scholar: Largest search engine for academic publishing [[Link]](https://scholar.google.com/)
 * IEEEXplore: The professional home for the engineering and technology community worldwide [[Link]](https://ieeexplore.ieee.org/Xplore/home.jsp)
 * ACM DL: A community engaged with a repository of resources to support computing research and practice [[Link]](https://dl.acm.org/)
@@ -42,6 +44,10 @@ Academic Organizations / Journal / Talk
 * [JEIT](https://jeit.ac.cn/) &#124; [Talk](https://space.bilibili.com/1554640901?spm_id_from=333.337.search-card.all.click)
 * [CHASPARK [黄大年茶思屋]](https://www.chaspark.com/#/home)
 * [NSFC](https://www.nsfc.gov.cn/)
+  
+Paper with code
+------
+* [paperswithcode](https://paperswithcode.com/)
 
 AIGC
 ------
