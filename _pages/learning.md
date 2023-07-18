@@ -48,6 +48,12 @@ Academic Organizations / Journal / Talk
 Paper with code
 ------
 * [paperswithcode](https://paperswithcode.com/)
+* [Paper_with_code_for_communication_and_network[本人整理中]](https://github.com/Xuezhenggdut/Paper_with_code_for_communication_and_network)
+
+Writing
+------
+* [IEEE Template Selector](https://template-selector.ieee.org/secure/templateSelector/publicationType)
+* [Overleaf](https://www.overleaf.com/)
 
 AIGC
 ------
