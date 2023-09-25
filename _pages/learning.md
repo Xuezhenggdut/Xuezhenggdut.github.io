@@ -82,6 +82,7 @@ Photo
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/zh-cn/)
 * [pixabay](https://pixabay.com/zh/)
+* [Freepik](https://www.freepik.com/)
 
 Wallpaper
 ------
