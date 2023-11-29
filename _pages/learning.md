@@ -20,6 +20,10 @@ Coding
 Research
 ======
 
+Experience /& Methods /& Tips /& Skills 
+------
+- [learn_how_to_research](https://github.com/Xuezhenggdut/learn_how_to_research)
+
 Search
 ------
 * Google Scholar: Largest search engine for academic publishing [[Link]](https://scholar.google.com/)
