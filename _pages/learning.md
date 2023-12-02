@@ -58,6 +58,7 @@ Writing
 ------
 * [IEEE Template Selector](https://template-selector.ieee.org/secure/templateSelector/publicationType)
 * [Overleaf](https://www.overleaf.com/)
+* [GDUT-Beamer-Theme](https://cn.overleaf.com/latex/templates/gdut-beamer-theme/kxsdckcqwnzf)
 
 AIGC
 ------
