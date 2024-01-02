@@ -41,6 +41,7 @@ Projects
 * Low-Latency Multi-Channel High-Definition Video Transmission System 
   ![这是图片](/images/FPGA.png "System Diagram")
 * [V2X Cooperative Perception System](https://github.com/Xuezhenggdut/V2X_cooperative_perception_system)
+* [Research on Data Transmission and Caching Strategies in Vehicular Networks](http://xuezhenggdut.github.io/files/master_thesis.pdf)
 
 
 <center>
