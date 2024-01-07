@@ -20,11 +20,6 @@ Education
 
 Publications
 ======
-SCI: [Journal Partition List by National Science Library, Chinese Academy of Sciences](https://www.fenqubiao.com/)
-
-CCF: [Recommended Publications by China Computer Federation](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
-
-THU: [Important Conference Directory](https://www.sist.tsinghua.edu.cn/__local/0/E3/67/303DEC8D1B54395036E70EECAF6_AD515DFB_5643C0.pdf?e=.pdf)
 
 Journal
 * **Z. Xue**, C. Liu, C. Liao, G. Han and Z. Sheng, "Joint Service Caching and Computation Offloading Scheme Based on Deep Reinforcement Learning in Vehicular Edge Computing Systems," in IEEE Transactions on Vehicular Technology, vol. 72, no. 5, pp. 6709-6722, May 2023, doi: 10.1109/TVT.2023.3234336.[[Paper]](https://ieeexplore.ieee.org/document/10007043)
@@ -43,6 +38,12 @@ Projects
 * [V2X Cooperative Perception System](https://github.com/Xuezhenggdut/V2X_cooperative_perception_system)
 * [Research on Data Transmission and Caching Strategies in Vehicular Networks](http://xuezhenggdut.github.io/files/master_thesis.pdf)
 
+
+Github
+------
+* [Paper with code for communication and network](https://github.com/Xuezhenggdut/Paper_with_code_for_communication_and_network) | [![Stars](https://img.shields.io/github/stars/Xuezhenggdut/Paper_with_code_for_communication_and_network.svg?color=orange)](https://github.com/Xuezhenggdut/Paper_with_code_for_communication_and_network/stargazers) | ![Last Commit](https://img.shields.io/github/last-commit/Xuezhenggdut/Paper_with_code_for_communication_and_network?label=&message=Commit) |
+* [learn how to research](https://github.com/Xuezhenggdut/learn_how_to_research) | [![Stars](https://img.shields.io/github/stars/Xuezhenggdut/learn_how_to_research.svg?color=orange)](https://github.com/Xuezhenggdut/learn_how_to_research/stargazers) | ![Last Commit](https://img.shields.io/github/last-commit/Xuezhenggdut/learn_how_to_research?label=&message=Commit) |
+* [Security in Vehicular Networks and Autonomous Driving](https://github.com/Internet-of-Vehicles-Code/Security_in_Vehicular_Networks_and_Autonomous_Driving) | [![Stars](https://img.shields.io/github/stars/Internet-of-Vehicles-Code/Security_in_Vehicular_Networks_and_Autonomous_Driving.svg?color=orange)](https://github.com/Internet-of-Vehicles-Code/Security_in_Vehicular_Networks_and_Autonomous_Driving/stargazers) | ![Last Commit](https://img.shields.io/github/last-commit/Internet-of-Vehicles-Code/Security_in_Vehicular_Networks_and_Autonomous_Driving?label=&message=Commit) |
 
 <center>
 <a href="https://www.revolvermaps.com/livestats/5380rvjbcz8/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/0/5380rvjbcz8.png" width="256" height="128" alt="Map" style="border:0;"></a>
