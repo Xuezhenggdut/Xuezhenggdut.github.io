@@ -7,8 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently pursing the Ph.D degree, advised by [Prof. Guojun Han](https://teacher.gdut.edu.cn/hanguojun) in information and communication engineering at Guangdong University of Technology, Guangzhou, China. Since September 2022, I have been visiting the State Key Laboratory of Automotive Safety and Energy, and the School of
-Vehicle and Mobility, at Tsinghua University. During my visit, I have been advised by [Assoc. Prof. Fuxi Wen](https://wenfuxi.github.io/). My research interests include vehicular networks, edge computing and cooperative perception.
+Zheng Xue (Chinese character 薛拯) received his Ph.D. degree from the School of Information Engineering at Guangdong University of Technology (GDUT), Guangzhou, China, in 2024. Dr. Xue is currently a Postdoctoral Research, working in cooperation with [Prof. Yi Fang](https://yzw.gdut.edu.cn/info/1088/1333.htm) and [Prof. Guojun Han](https://teacher.gdut.edu.cn/hanguojun) at Guangdong University of Technology, Guangzhou, China. His research interests include vehicular networks, edge computing and cooperative perception.
 
 
 Education
