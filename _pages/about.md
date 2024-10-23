@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Zheng Xue (Chinese character 薛拯) received his Ph.D. degree from the School of Information Engineering at Guangdong University of Technology (GDUT), Guangzhou, China, in 2024. Dr. Xue is currently a Postdoctoral Research, working in cooperation with [Prof. Yi Fang](https://yzw.gdut.edu.cn/info/1088/1333.htm) and [Prof. Guojun Han](https://teacher.gdut.edu.cn/hanguojun) at Guangdong University of Technology, Guangzhou, China. His research interests include vehicular networks, edge computing and cooperative perception.
+Zheng Xue (Chinese character 薛拯) received his Ph.D. degree from the School of Information Engineering at Guangdong University of Technology (GDUT), Guangzhou, China, in 2024. Dr. Xue is currently a Postdoctoral Researcher, working in cooperation with [Prof. Yi Fang](https://yzw.gdut.edu.cn/info/1088/1333.htm) and [Prof. Guojun Han](https://teacher.gdut.edu.cn/hanguojun) at Guangdong University of Technology, Guangzhou, China. His research interests include vehicular networks, edge computing and cooperative perception.
 
 
 Education
