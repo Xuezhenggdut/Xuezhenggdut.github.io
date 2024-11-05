@@ -12,7 +12,7 @@ Download [CV](http://xuezhenggdut.github.io/files/paper1.pdf)
 
 Education
 ======
-* 2021.09-2024.06 (now), Ph.D, Information and Communication Engineering, School of Information Engineering, Guangdong University of Technology, Guangzhou.
+* 2021.09-2024.06, Ph.D, Information and Communication Engineering, School of Information Engineering, Guangdong University of Technology, Guangzhou.
 * 2018.09-2021.06, B.Eng., Electronic and Communication Engineering, School of Information Engineering, Guangdong University of Technology, Guangzhou.
 * 2014.09-2018.06, Bachelor, Automotive Service Engineering, College of Traffic & Transportation, Chongqing Jiaotong University , Chongqing.
 
