@@ -50,5 +50,4 @@ Github
 
 <center>
 <a href="https://clustrmaps.com/site/1bvmf"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=N0b8H83Io6TZu6SShY5_UIAVuBntR3kpP45Pa18rhcc&cl=ffffff" /></a>
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=N0b8H83Io6TZu6SShY5_UIAVuBntR3kpP45Pa18rhcc"></script>
 <center>
