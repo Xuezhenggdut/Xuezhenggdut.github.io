@@ -21,13 +21,17 @@ Publications
 ======
 
 Journal
+* **Z. Xue**, C. Liu, F. Wen and G. Han, "Joint Optimization of Task Offloading and Resource Allocation for Cooperative Perception in Vehicular Edge Computing Systems," in IEEE Transactions on Vehicular Technology, doi: 10.1109/TVT.2025.3586857. [[paper]](https://ieeexplore.ieee.org/document/11073083)
 * **Z. Xue**, C. Liu, C. Liao, G. Han and Z. Sheng, "Joint Service Caching and Computation Offloading Scheme Based on Deep Reinforcement Learning in Vehicular Edge Computing Systems," in IEEE Transactions on Vehicular Technology, vol. 72, no. 5, pp. 6709-6722, May 2023, doi: 10.1109/TVT.2023.3234336.[[Paper]](https://ieeexplore.ieee.org/document/10007043)
 * **Z. Xue**, Y. Liu, G. Han, F. Ayaz, Z. Sheng and Y. Wang, "Two-Layer Distributed Content Caching for Infotainment Applications in VANETs," in IEEE Internet of Things Journal, vol. 9, no. 3, pp. 1696-1711, 1 Feb.1, 2022, doi: 10.1109/JIOT.2021.3089280.[[Paper]](https://ieeexplore.ieee.org/document/9454455)
+* C. Liu, **Z. Xue**, C. Liao, J. Kang and G. Han, "DRL-Enhanced Vehicular Edge Caching Addressing Content Dynamics and Complex Intersections," in IEEE Internet of Things Journal, vol. 12, no. 2, pp. 1732-1745, 15 Jan.15, 2025, doi: 10.1109/JIOT.2024.3462479. [[paper]](https://ieeexplore.ieee.org/abstract/document/10681467)
 * Y. Liu, G. Han, Y. Wang, **Z. Xue**, J. Chen and C. Liu, "Received Signal Strength-Based Wireless Source Localization With Inaccurate Anchor Positions," in IEEE Sensors Journal, vol. 22, no. 23, pp. 23539-23551, 1 Dec.1, 2022, doi: 10.1109/JSEN.2022.3213373.[[Paper]](https://ieeexplore.ieee.org/document/9925135)
 
 Conference
-* Y. Liu, **Z. Xue**, G. Han, C. Liu and C. Liao, "Fuzzy Logic Based Agent Selection for Failure Management in VANETs," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 166-170, doi: 10.1109/ISCIT55906.2022.9931207.[[Paper]](https://ieeexplore.ieee.org/document/9931207)
-* C. Liao, C. Liu, **Z. Xue**, Y. Liu and G. Han, "Cooperative Edge Caching for Vehicular Networks in Road Intersections," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 105-110, doi: 10.1109/ISCIT55906.2022.9931202.[[Paper]](https://ieeexplore.ieee.org/document/9931202)
+* Y. Liu, **Z. Xue**, G. Han, C. Liu and C. Liao, "Fuzzy Logic Based Agent Selection for Failure Management in VANETs," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 166-170, doi: 10.1109/ISCIT55906.2022.9931207.
+* C. Liao, C. Liu, **Z. Xue**, Y. Liu and G. Han, "Cooperative Edge Caching for Vehicular Networks in Road Intersections," 2022 21st International Symposium on Communications and Information Technologies (ISCIT), Xi'an, China, 2022, pp. 105-110, doi: 10.1109/ISCIT55906.2022.9931202.
+* L. Luo, C. Liu, Z. Xue and G. Han, "An Attention Mechanism Spatio-Temporal Graph Framework for Misbehavior Detection in IoV," 2024 IEEE 10th International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications (MAPE), Guangzhou, China, 2024, pp. 1-4, doi: 10.1109/MAPE62875.2024.10813797.
+* Y. Zhang C. Liu, Z. Xue et al., "CDiB-IDS: Contextual DistilBERT-Based Intrusion Detection System for IoV," 2024 IEEE 10th International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications (MAPE), Guangzhou, China, 2024, pp. 1-4, doi: 10.1109/MAPE62875.2024.10813863.
 
 
 Projects
