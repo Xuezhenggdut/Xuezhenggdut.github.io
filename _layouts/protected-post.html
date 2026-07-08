@@ -1,0 +1,19 @@
+---
+layout: single
+---
+
+<div class="protected-post" data-protected-post>
+  <p class="protected-post__notice">This post is password protected.</p>
+  <form class="protected-post__form" data-protected-form>
+    <label for="protected-post-password">Password</label>
+    <div class="protected-post__controls">
+      <input id="protected-post-password" type="password" autocomplete="current-password" data-protected-password>
+      <button class="btn" type="submit">Unlock</button>
+    </div>
+    <p class="protected-post__message" data-protected-message></p>
+  </form>
+  <script type="application/json" data-protected-payload>
+    {{ page.encrypted_content | jsonify }}
+  </script>
+  <div class="protected-post__content" data-protected-content hidden></div>
+</div>
