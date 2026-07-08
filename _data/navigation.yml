@@ -1,0 +1,33 @@
+# main links links
+main:
+  - title: "About"
+    url: /
+    icon: "fas fa-user"
+
+  - title: "Publications"
+    url: /publications/
+    icon: "fas fa-book-open"
+
+  # - title: "Talks"
+  #   url: /talks/    
+
+  # - title: "Teaching"
+  #   url: /teaching/ 
+
+  - title: "Learning"
+    url: /learning/
+    icon: "fas fa-lightbulb"
+    
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    icon: "fas fa-pen-nib"
+    
+  # - title: "CV"
+  #   url: /cv/
+  #   icon: "fas fa-file-lines"
+    
+  # - title: "Guide"
+  #   url: /markdown/

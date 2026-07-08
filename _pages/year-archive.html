@@ -1,0 +1,52 @@
+---
+layout: archive
+permalink: /year-archive/
+title: "Blog posts"
+author_profile: true
+redirect_from:
+  - /wordpress/blog-posts/
+---
+
+{% include base_path %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% capture written_year %}None{% endcapture %}
+{% for post in sorted_posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle blog-year">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+
+  <article class="blog-card" itemscope itemtype="http://schema.org/BlogPosting">
+    <h3 class="blog-card-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+    </h3>
+
+    <div class="blog-meta-table">
+      <div class="blog-meta-row">
+        <span class="blog-meta-key">Date</span>
+        <span class="blog-meta-val"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></span>
+      </div>
+      {% if post.categories and post.categories.size > 0 %}
+      <div class="blog-meta-row">
+        <span class="blog-meta-key">Category</span>
+        <span class="blog-meta-val">{{ post.categories | join: ", " }}</span>
+      </div>
+      {% endif %}
+      {% if post.tags and post.tags.size > 0 %}
+      <div class="blog-meta-row">
+        <span class="blog-meta-key">Tags</span>
+        <span class="blog-meta-val">{{ post.tags | join: ", " }}</span>
+      </div>
+      {% endif %}
+    </div>
+
+    {% if post.excerpt %}
+      <p class="blog-card-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 180 }}</p>
+    {% endif %}
+
+    <p class="blog-card-actions">
+      <a class="blog-read-link" href="{{ base_path }}{{ post.url }}" rel="permalink">Read Post</a>
+    </p>
+  </article>
+{% endfor %}
