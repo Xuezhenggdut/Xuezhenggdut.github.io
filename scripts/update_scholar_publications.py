@@ -8,10 +8,13 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import base64
 import datetime as dt
 import html
 import pathlib
 import re
+import subprocess
+import sys
 import urllib.parse
 import urllib.request
 
@@ -102,7 +105,7 @@ def build_scholar_url(user: str, lang: str) -> str:
     return f"https://scholar.google.com/citations?{query}"
 
 
-def fetch_html(url: str) -> str:
+def fetch_html_with_urllib(url: str, timeout: int = 60) -> str:
     req = urllib.request.Request(
         url,
         headers={
@@ -113,8 +116,45 @@ def fetch_html(url: str) -> str:
             )
         },
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="ignore")
+
+
+def quote_powershell_string(value: str) -> str:
+    return "'" + value.replace("'", "''") + "'"
+
+
+def fetch_html_with_powershell(url: str, timeout: int = 60) -> str:
+    script = (
+        "$ProgressPreference = 'SilentlyContinue'; "
+        f"$url = {quote_powershell_string(url)}; "
+        f"$timeout = {int(timeout)}; "
+        "$response = Invoke-WebRequest -Uri $url -Headers @{ 'User-Agent' = 'Mozilla/5.0' } -TimeoutSec $timeout; "
+        "[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($response.Content))"
+    )
+    result = subprocess.run(
+        ["powershell.exe", "-NoProfile", "-Command", script],
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="ignore",
+    )
+    return base64.b64decode(result.stdout.strip()).decode("utf-8", errors="ignore")
+
+
+def fetch_html(url: str, timeout: int = 60) -> str:
+    try:
+        return fetch_html_with_urllib(url, timeout=timeout)
+    except Exception as urllib_error:
+        if not sys.platform.startswith("win"):
+            raise
+        try:
+            return fetch_html_with_powershell(url, timeout=timeout)
+        except Exception as powershell_error:
+            raise RuntimeError(
+                f"Failed to fetch {url} with urllib ({urllib_error}) and PowerShell ({powershell_error})."
+            ) from powershell_error
 
 
 def strip_html(raw: str) -> str:
@@ -263,9 +303,34 @@ def resolve_paper_url(scholar_url: str) -> str:
     return candidate or scholar_url
 
 
-def parse_publications(page_html: str, skip_paper_links: bool) -> list[dict[str, object]]:
+def load_existing_paper_urls(path: pathlib.Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+
+    urls: dict[str, str] = {}
+    current_title: str | None = None
+    for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
+        title_m = re.match(r'\s+title:\s+"(.*)"\s*$', line)
+        if title_m:
+            current_title = title_m.group(1).replace('\\"', '"').replace('\\\\', '\\')
+            continue
+
+        paper_m = re.match(r'\s+paper_url:\s+"(.*)"\s*$', line)
+        if paper_m and current_title:
+            urls[current_title.lower()] = paper_m.group(1).replace('\\"', '"').replace('\\\\', '\\')
+            current_title = None
+
+    return urls
+
+
+def parse_publications(
+    page_html: str,
+    skip_paper_links: bool,
+    existing_paper_urls: dict[str, str] | None = None,
+) -> list[dict[str, object]]:
     rows = re.findall(r'<tr class="gsc_a_tr">(.*?)</tr>', page_html, flags=re.S)
     items: list[dict[str, object]] = []
+    existing_paper_urls = existing_paper_urls or {}
 
     for row in rows:
         title_m = re.search(r'class="gsc_a_at">(.*?)</a>', row, flags=re.S)
@@ -284,7 +349,7 @@ def parse_publications(page_html: str, skip_paper_links: bool) -> list[dict[str,
         year = int(year_m.group(1)) if year_m else 0
         cited_by = int(cite_m.group(1)) if cite_m and cite_m.group(1).strip().isdigit() else 0
         scholar_url = "https://scholar.google.com" + link_m.group(1).replace("&amp;", "&")
-        paper_url = scholar_url if skip_paper_links else resolve_paper_url(scholar_url)
+        paper_url = existing_paper_urls.get(title.lower(), scholar_url) if skip_paper_links else resolve_paper_url(scholar_url)
 
         if not venue:
             continue
@@ -353,7 +418,11 @@ def main() -> int:
     url = build_scholar_url(user, args.lang)
     page_html = fetch_html(url)
     stats = parse_profile_stats(page_html)
-    items = parse_publications(page_html, args.skip_paper_links)
+    existing_paper_urls: dict[str, str] = {}
+    if args.skip_paper_links:
+        for existing_source in (output, DEFAULT_OUTPUT):
+            existing_paper_urls.update(load_existing_paper_urls(existing_source))
+    items = parse_publications(page_html, args.skip_paper_links, existing_paper_urls)
 
     if not items:
         print("Error: no publication rows parsed from Scholar page.")

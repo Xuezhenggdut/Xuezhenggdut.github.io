@@ -1,15 +1,15 @@
-updated_at: "2026-04-15"
+updated_at: "2026-07-08"
 profile:
-  citations: 194
+  citations: 211
   h_index: 5
-  i10_index: 3
+  i10_index: 4
 items:
   - type: "journal"
     title: "Joint Service Caching and Computation Offloading Scheme Based on Deep Reinforcement Learning in Vehicular Edge Computing Systems"
     authors: "Z Xue, C Liu, C Liao, G Han, Z Sheng"
     venue: "IEEE Transactions on Vehicular Technology 72 (5), 6709-6722"
     year: 2023
-    cited_by: 123
+    cited_by: 135
     scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:u5HHmVD_uO8C"
     paper_url: "https://ieeexplore.ieee.org/abstract/document/10007043/"
   - type: "journal"
@@ -33,7 +33,7 @@ items:
     authors: "Z Xue, C Liu, F Wen, G Han"
     venue: "IEEE Transactions on Vehicular Technology 74 (12), 19237-19251"
     year: 2025
-    cited_by: 6
+    cited_by: 10
     scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:Tyk-4Ss8FVUC"
     paper_url: "https://ieeexplore.ieee.org/abstract/document/11073083/"
   - type: "journal"
@@ -68,6 +68,14 @@ items:
     cited_by: 2
     scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:W7OEmFMy1HYC"
     paper_url: "https://ieeexplore.ieee.org/abstract/document/11184798/"
+  - type: "journal"
+    title: "Cybertwin-Enhanced Distributed Authentication with Lightweight Cryptography for Secure Internet of Vehicles"
+    authors: "C Liu, H Wei, Z Xue, J Kang, X Xu, G Han"
+    venue: "IEEE Transactions on Vehicular Technology"
+    year: 2026
+    cited_by: 1
+    scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:YsMSGLbcyi4C"
+    paper_url: "https://ieeexplore.ieee.org/abstract/document/11355873/"
   - type: "conference"
     title: "Generalized Rate Splitting for Enhanced Max-Min Fairness in Weak-User RSMA Systems"
     authors: "J Pan, C Liu, Z Xue, Y Zhang, Z Zheng, Y Cheng, MUF Qaisar, G Han"
@@ -84,6 +92,14 @@ items:
     cited_by: 1
     scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:zYLM7Y9cAGgC"
     paper_url: "https://ieeexplore.ieee.org/abstract/document/10813797/"
+  - type: "conference"
+    title: "ALADCP: Attention-Based Late-Fusion Anomaly Detection for V2V Collaborative Perception"
+    authors: "G Liu, C Liu, Z Xue, P Han, C Lane, Y Sun, G Han"
+    venue: "2026 IEEE Wireless Communications and Networking Conference Workshops (WCNCW"
+    year: 2026
+    cited_by: 0
+    scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:LkGwnXOMwfcC"
+    paper_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:LkGwnXOMwfcC"
   - type: "journal"
     title: "CATwin-IDS: Context-Aware Intrusion Detection System for Both in-Vehicle and External-Vehicle Networks via Digital Twin"
     authors: "C Liu, Y Zhang, Z Xue, Z Sheng, J Kang, G Han"
@@ -93,13 +109,13 @@ items:
     scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:ufrVoPGSRksC"
     paper_url: "https://ieeexplore.ieee.org/abstract/document/11424308/"
   - type: "journal"
-    title: "Cybertwin-Enhanced Distributed Authentication with Lightweight Cryptography for Secure Internet of Vehicles"
-    authors: "C Liu, H Wei, Z Xue, J Kang, X Xu, G Han"
-    venue: "IEEE Transactions on Vehicular Technology"
+    title: "A Novel Dual-Layer Multi-Shard Blockchain Architecture for Vehicle Data Sharing"
+    authors: "C Liu, K Ning, PT Mathiopoulos, Z Xue, G Han"
+    venue: "IEEE Transactions on Mobile Computing"
     year: 2026
     cited_by: 0
-    scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:YsMSGLbcyi4C"
-    paper_url: "https://ieeexplore.ieee.org/abstract/document/11355873/"
+    scholar_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:_FxGoFyzp5QC"
+    paper_url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QMijGnwAAAAJ&citation_for_view=QMijGnwAAAAJ:_FxGoFyzp5QC"
   - type: "conference"
     title: "A Dynamic Group Management and Authentication Scheme for Internet of Vehicles Using Chinese Remainder Theorem"
     authors: "G Chen, C Liu, Z Xue, L Li, L Liu, G Han"
