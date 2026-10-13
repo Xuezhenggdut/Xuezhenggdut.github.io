@@ -292,6 +292,29 @@ h1, h2, h3, h4, .page__title, .archive__item-title {
   margin-top: 0.4rem;
 }
 
+.visitor-map-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.visitor-map-status,
+.visitor-map-caption {
+  margin: 0.4rem 0;
+  font-size: 0.75rem;
+  color: #4d5357;
+}
+
+.visitor-map-retry {
+  padding: 0;
+  margin-left: 0.3rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* Blog archive card/table style */
 .blog-year {
   margin-top: 1.5rem;

@@ -90,5 +90,13 @@ redirect_from:
 <i class="fas fa-globe-asia" aria-hidden="true"></i> Visitor Map
 ------
 <div class="visitor-map">
-  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=n&d=N0b8H83Io6TZu6SShY5_UIAVuBntR3kpP45Pa18rhcc'></script>
+  <a href="https://info.flagcounter.com/EfVl" target="_blank" rel="noopener noreferrer">
+    <img class="visitor-map-image" src="https://s05.flagcounter.com/map/EfVl/size_m/txt_4D5357/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="World map of visitor countries, provided by Flag Counter" width="600" height="291" decoding="async">
+  </a>
+  <p class="visitor-map-status" role="status" hidden>
+    The visitor map is temporarily unavailable.
+    <button class="visitor-map-retry" type="button">Retry</button>
+  </p>
+  <p class="visitor-map-caption"><a href="https://info.flagcounter.com/EfVl" target="_blank" rel="noopener noreferrer">View visitor statistics</a> &middot; Since October 13, 2026</p>
 </div>
+<script src="{{ '/assets/js/visitor-map.js' | relative_url }}" defer></script>
