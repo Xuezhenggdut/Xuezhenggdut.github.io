@@ -4,6 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% assign author = site.data.authors[page.author] | default: site.author %}
 {% assign pubs = site.data.publications.items %}
 {% assign journal_pubs = pubs | where: "type", "journal" | sort: "year" | reverse %}
 {% assign conference_pubs = pubs | where: "type", "conference" | sort: "year" | reverse %}
